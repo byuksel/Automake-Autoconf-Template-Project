@@ -11,12 +11,16 @@ while modifying the Makefile.am's and configure.ac's with the names of your file
 
 In order to make everything work, once you clone this directory, go the root of project, and type:
 > aclocal
+
 > autoconf
+
 > automake --add-missing
 
 This should create all "configure" script along with all the Makefile's. Now, you can type
 > ./configure
+
 > make
+
 And your project should compile. Now you are all set with a lean template to build upon. 
 Good Luck!
 Baris Yuksel
