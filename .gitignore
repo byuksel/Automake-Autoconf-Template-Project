@@ -4,8 +4,5 @@
 # Ignore Emacs auto rescue files
 **/#*#
 **/.#*
-# Ignore test output
-test/output/**/*
-# Ignore npm stuff
-npm-debug.log
-node_modules
+# Ignore cache stuff
+autom4te.cache/
