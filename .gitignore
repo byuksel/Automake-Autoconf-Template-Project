@@ -1,0 +1,11 @@
+**/.DS_Store
+# Ignore Emacs autosaves of older versions
+**/*~
+# Ignore Emacs auto rescue files
+**/#*#
+**/.#*
+# Ignore test output
+test/output/**/*
+# Ignore npm stuff
+npm-debug.log
+node_modules
